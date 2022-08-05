@@ -10,6 +10,24 @@ Do not download these software tools from the App Store or from a webpage. Inste
 
 Note: All of these tools are available for free. If you are prompted to pay for any of these tools, you are probably installing the wrong tool.
 
+## Questions
+
+**What if I already have some of this software installed?**
+
+- If you already have Scoop, Cmder, or VSCode, you don't need to install them again. Consider updating to the latest version.
+- If you already have Git or Python installed, but not through scoop, you should consider uninstalling the version you have, and reinstalling via scoop
+
+**What if something goes wrong?**
+
+Installing software can be confusing or frustrating. All the software installed
+here is easy to remove and should not interfere with any of the other software
+on your computer. Reach out to us if something goes wrong.
+
+**How do I get help?**
+
+[Email](mailto:hello@kibo.school) or [Whatsapp](https://bit.ly/WhatsAppKibo) with questions or issues. Try to include as many details about the problem as you can, including what step you were trying to accomplish and what problem you are facing.
+
+
 ## Local Dev Environment Setup
 
 The first thing you'll need to do is to install the basic tools for programming.

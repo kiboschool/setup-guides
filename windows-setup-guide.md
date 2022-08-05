@@ -4,15 +4,14 @@ If you have a Windows 10 or Windows 11 laptop, you should follow these
 instructions to set your computer up to write, run, and debug code. 
 
 You'll install:
-- **Scoop**, a tool for installing and managing software
-- **Git**, a tool for managing changes to code 
-- **Cmder**, a terminal emulator that lets you interact with files and programs
-    via text
-- **VSCode**, a popular programming text editor you'll use to write programs
-- **Python**, the programming language we'll use for introductory programming
-    classes at Kibo
 
-## Scoop
+1. **Scoop**, a tool for installing and managing software
+2. **Git**, a tool for managing changes to code 
+3. **Cmder**, a terminal emulator that lets you interact with files and programs via text
+4. **VSCode**, a popular programming text editor you'll use to write programs
+5. **Python**, the programming language we'll use for introductory programming classes at Kibo
+
+## 1. Scoop
 
 Scoop is a tool for installing programs on Windows. When you are installing software in subsequent steps, or in the future, you’ll use Scoop.
 
@@ -43,7 +42,7 @@ While you wait, you can read more about Scoop on its homepage. Note any question
 
 Once Scoop has completed its install process, you can move on to the next step.
 
-## Git
+## 2. Git
 
 Git is a version control tool. It helps software developers work together on a shared set of files. Over the course of the degree program, you’ll learn how to use Git to manage your work and collaborate with teammates. For now, you are just getting Git installed on your computer.
 
@@ -55,7 +54,7 @@ scoop install git
 
 Git and its dependencies should install fairly quickly.
 
-## Cmder
+## 3. Cmder
 
 Cmder is a Terminal Emulator. It provides a text-based way to manage files, run programs, and develop software. You’ll use it in many of your courses to run programs and see their output.
 
@@ -67,7 +66,7 @@ scoop install cmder
 
 While you wait for it to install, you can browse to the Cmder wiki to learn more about configuration options for cmder.
 
-## VSCode
+## 4. VSCode
 
 Visual Studio Code (VSCode) is a text editor for programming. Unlike ‘rich text’ editors like Google Docs or Microsoft Word, VSCode operates on plain text. It can highlight different keywords, and use colors to indicate different parts of syntax, but it still saves each file as just the text. If someone opened the same file with different settings, it would look different.
 
@@ -80,7 +79,7 @@ scoop install vscode
 
 The first line (scoop bucket add extras) adds a “bucket” to scoop. It’s a new set of software programs and packages that scoop knows how to install. The second line actually installs vscode.
 
-## Python
+## 5. Python
 
 Python is a popular programming language, which we use in the introductory programming courses at Kibo. While technically you could write python programs without installing any software, it’s important that you can run Python programs too! In order to run python programs, you’ll need to install the language.
 
@@ -94,7 +93,9 @@ There are lots of different versions of Python. This will install the latest ver
 
 ## Summary
 
-Here’s the short version of the above steps.
+Here’s the short version of the above steps. 
+
+Don't do them again if you've already followed the steps!
 
 Open Powershell ( `⊞ Win` then search “Powershell”), and run these commands one at a time, in order. To run each command, copy and paste the line from here into Powershell and press Enter.
 
