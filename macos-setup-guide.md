@@ -43,7 +43,7 @@ Copy and paste this line, then hit Enter:
 
 This line will actually download and install Homebrew. The installer will tell
 you what it is doing, and ask for confirmation several times. Use the default
-settings.
+settings. It may also prompt you for your computer password.
 
 Once Homebrew has completed its install process, you can move on to the next step.
 

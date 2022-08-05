@@ -6,7 +6,17 @@ Click to the guide for your operating system. See below for notes and FAQs.
 
 - [Windows Dev Environment Setup](./windows-setup-guide.md)
 - [MacOS Dev Environment Setup](./macos-setup-guide.md)
-- [Linux Dev Environment Setup](./linux-setup-guide.md)
+
+After following your OS guide, you'll also need to follow the general setup
+steps:
+
+- [Academic Software](./academic-software.md)
+- [Git and Github Setup](./git-and-github.md)
+
+[Optional] Some tools and tips that are not required, but you might find useful:
+
+- [Windows Recommended Tools](windows-recommended.md)
+- [MacOS Recommended Tools](macos-recommended.md)
 
 ## Installing and managing software
 
@@ -34,31 +44,3 @@ on your computer. Reach out to us if something goes wrong.
 **How do I get help?**
 
 [Email](mailto:hello@kibo.school) or [Whatsapp](https://bit.ly/WhatsAppKibo) with questions or issues. Try to include as many details about the problem as you can, including what step you were trying to accomplish and what problem you are facing.
-
-
-## More
-
-## Setup Git and Github
-
-**Sign up for a Github Account**
-
-**Configure Git**
-
-git config --global user.email "you@example.com"
-git config --global user.name "Your name"
-
-**Configure SSH**
-
-1. https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
-2. https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
-3. https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection
-
-## Academic Software
-
-- Zoom
-- Discord
-- Chrome Browser
-- Replit
-- Woolf
-- GSuite for Education
-
