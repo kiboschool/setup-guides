@@ -1,6 +1,12 @@
 # Setup Guides
 
-Local Environment Setup Guides for Kibo
+Development Environment Setup Guides for Kibo
+
+Click to the guide for your operating system. See below for notes and FAQs.
+
+- [Windows Dev Environment Setup](./windows-setup-guide.md)
+- [MacOS Dev Environment Setup](./macos-setup-guide.md)
+- [Linux Dev Environment Setup](./linux-setup-guide.md)
 
 ## Installing and managing software
 
@@ -8,9 +14,11 @@ In the past, you have probably installed software either by downloading it from 
 
 Do not download these software tools from the App Store or from a webpage. Instead, follow these instructions to install them using the Terminal. While it is not as familiar, it will give you more control over your programming environment, and will allow you to manage your software versions more powerfully.
 
-Note: All of these tools are available for free. If you are prompted to pay for any of these tools, you are probably installing the wrong tool.
-
 ## Questions
+
+**Do I have to pay for anything?**
+
+No. All of these tools are available for free. If you are prompted to pay for any of these tools, you are probably installing the wrong tool.
 
 **What if I already have some of this software installed?**
 
@@ -28,10 +36,29 @@ on your computer. Reach out to us if something goes wrong.
 [Email](mailto:hello@kibo.school) or [Whatsapp](https://bit.ly/WhatsAppKibo) with questions or issues. Try to include as many details about the problem as you can, including what step you were trying to accomplish and what problem you are facing.
 
 
-## Local Dev Environment Setup
+## More
 
-The first thing you'll need to do is to install the basic tools for programming.
+## Setup Git and Github
 
-- [Windows Dev Environment Setup](./windows-setup-guide.md)
-- [MacOS Dev Environment Setup](./macos-setup-guide.md)
-- [Linux Dev Environment Setup](./linux-setup-guide.md)
+**Sign up for a Github Account**
+
+**Configure Git**
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your name"
+
+**Configure SSH**
+
+1. https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+2. https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+3. https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection
+
+## Academic Software
+
+- Zoom
+- Discord
+- Chrome Browser
+- Replit
+- Woolf
+- GSuite for Education
+
