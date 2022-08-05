@@ -20,7 +20,7 @@ To install Scoop, you’ll follow these steps (copied from the Quickstart Guide 
 
 1. Open a Powershell Terminal
 
-Press the  ⊞  Win   (the Windows Key), then type “Powershell” and select the Powershell application to launch it
+Press the  `⊞ Win`   (the Windows Key), then type “Powershell” and select the Powershell application to launch it
 
 2. Copy and paste this line into Powershell, then hit Enter:
 
@@ -96,7 +96,7 @@ There are lots of different versions of Python. This will install the latest ver
 
 Here’s the short version of the above steps.
 
-Open Powershell ( ⊞  Win  then search “Powershell”), and run these commands one at a time, in order. To run each command, copy and paste the line from here into Powershell and press Enter.
+Open Powershell ( `⊞ Win` then search “Powershell”), and run these commands one at a time, in order. To run each command, copy and paste the line from here into Powershell and press Enter.
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
