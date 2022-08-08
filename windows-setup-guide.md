@@ -74,6 +74,9 @@ To install VSCode, run the following commands in Powershell:
 
 ```powershell
 scoop bucket add extras
+```
+
+```powershell
 scoop install vscode
 ```
 

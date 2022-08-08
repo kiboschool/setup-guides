@@ -13,10 +13,14 @@ steps:
 - [Academic Software](./academic-software.md)
 - [Git and Github Setup](./git-and-github.md)
 
+<!--
+
 **[Optional]** Tools and tips that are not required, but you might find useful:
 
 - [Windows Recommended Tools](windows-recommended.md)
 - [MacOS Recommended Tools](macos-recommended.md)
+
+-->
 
 ## Installing and managing software
 
