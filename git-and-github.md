@@ -1,5 +1,7 @@
 # Setup Git and Github
 
+Click to watch a video of this walkthrough ([Windows](https://www.loom.com/share/3d455cc0b40a473cbc4dca356dfd9bf5))
+
 ## Sign up for a Github Account
 
 Navigate to https://github.com/join and sign up for a Github account. Store your credentials in your _password manager_ (you should do this for all new logins).
