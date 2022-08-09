@@ -65,7 +65,7 @@ Now, you need to copy the key so that you can add it to Github.
 
 Windows:
 ```powershell
-clip < ~/.ssh/id_ed25519.pub
+clip < ~\.ssh\id_ed25519.pub
 ```
 
 Mac:
