@@ -1,5 +1,7 @@
 # Academic Software and Accounts
 
+Watch a video walkthrough of this guide ([Windows](https://www.loom.com/share/6eee1778693e4e4bb3b8ed377ebd5755))
+
 There is also some general-purpose software you'll use throughout your academic
 program. You may already have this software installed, so skip any applications
 that you already have.

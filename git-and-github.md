@@ -1,6 +1,6 @@
 # Setup Git and Github
 
-Click to watch a video of this walkthrough ([Windows](https://www.loom.com/share/3d455cc0b40a473cbc4dca356dfd9bf5))
+Watch a video of this walkthrough ([Windows](https://www.loom.com/share/3d455cc0b40a473cbc4dca356dfd9bf5))
 
 ## Sign up for a Github Account
 
