@@ -1,5 +1,8 @@
 # Windows Setup Guide
 
+[Click here to watch a walkthrough of this setup
+guide](https://www.loom.com/share/c7ff1f619c5844bab568c0c3d681d8b2)
+
 If you have a Windows 10 or Windows 11 laptop, you should follow these
 instructions to set your computer up to write, run, and debug code. 
 
