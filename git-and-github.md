@@ -59,13 +59,27 @@ prompt.
 > Enter same passphrase again: [Type passphrase again]
 ```
 
+The program will tell you that it created a pair of keys, and give the paths to those files. Note the path to the public key, because you'll need it in the next step. It should be something like:
+
+Windows:
+```
+Your public key has been saved in C:\Users\user\.ssh/id_ed25519.pub
+```
+
+Mac:
+```
+Your public key has been saved in /Users/user/.ssh/id_ed25519.pub
+```
+
 ### Copy your key
 
-Now, you need to copy the key so that you can add it to Github.
+Now, you need to copy the key so that you can add it to Github. The `clip` or `pbcopy` command will copy the contents of the file to the clipboard, so that you can paste it into Github in the next step. 
+
+(If you get a 'File not found error', use the file path from the previous step instead of the file paths shown in these examples)
 
 Windows:
 ```powershell
-clip < ~\.ssh\id_ed25519.pub
+clip < ~/.ssh/id_ed25519.pub
 ```
 
 Mac:
