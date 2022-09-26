@@ -4,9 +4,9 @@ Watch a video of this walkthrough ([Windows](https://www.loom.com/share/3d455cc0
 
 ## Sign up for a Github Account
 
-Navigate to https://github.com/join and sign up for a Github account. Store your credentials in your _password manager_ (you should do this for all new logins).
+Navigate to https://github.com/join and sign up for a Github account using your Kibo email address. Store your credentials in your _password manager_ (you should do this for all new logins).
 
-If you already have a GitHub account, you can skip this step.
+If you already have a GitHub account, you should instead add your Kibo email address to your Github account. [This guide explains how](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/adding-an-email-address-to-your-github-account)
 
 ## Configure Git
 
