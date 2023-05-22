@@ -13,6 +13,7 @@ You'll install:
 3. **Cmder**, a terminal emulator that lets you interact with files and programs via text
 4. **VSCode**, a popular programming text editor you'll use to write programs
 5. **Python**, the programming language we'll use for introductory programming classes at Kibo
+6. **NodeJS**, the programming language and environment we'll use for introductory web development classes at Kibo
 
 ## 1. Scoop
 
@@ -97,6 +98,18 @@ scoop install python
 
 There are lots of different versions of Python. This will install the latest version (`3.10` as of this writing) , which is what we’ll use in class.
 
+## 6. NodeJS
+
+NodeJS is a JavaScript _runtime_ -- it lets you run JavaScript on your computer, like you run python, instead of just in the browser. For web development, lots of common development tools depend on NodeJS, including the automated tests for the web development classes.
+
+To install Node, run the following command in Powershell:
+
+```sh
+scoop install nodejs
+```
+
+There are lots of different versions of Node. This will install version `20`, which is the latest stable version of Node and what we’ll use in class.
+
 ## Summary
 
 Here’s the short version of the above steps. 
@@ -113,4 +126,5 @@ scoop install cmder
 scoop bucket add extras
 scoop install vscode
 scoop install python
+scoop install nodejs
 ```

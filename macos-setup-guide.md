@@ -10,6 +10,7 @@ You'll install:
 3. **Iterm2**, a terminal emulator that lets you interact with files and programs via text
 4. **VSCode**, a popular programming text editor you'll use to write programs
 5. **Python**, the programming language we'll use for introductory programming classes at Kibo
+6. **NodeJS**, the programming language and environment we'll use for introductory web development classes at Kibo
 
 ## 1. Homebrew
 
@@ -93,6 +94,18 @@ brew install python@3.10
 
 There are lots of different versions of Python. This will install version `3.10`, which is the latest version of python and which is what we’ll use in class.
 
+## 6. NodeJS
+
+NodeJS is a JavaScript _runtime_ -- it lets you run JavaScript on your computer, like you run python, instead of just in the browser. For web development, lots of common development tools depend on NodeJS, including the automated tests for the web development classes.
+
+To install Node, run the following command in Terminal:
+
+```sh
+brew install node
+```
+
+There are lots of different versions of Node. This will install version `20`, which is the latest stable version of Node and what we’ll use in class.
+
 ## Summary
 
 Here’s the short version of the above steps. 
@@ -108,4 +121,5 @@ brew install git
 brew install --cask iterm2
 brew install --cask visual-studio-code
 brew install python@3.10
+brew install node
 ```
