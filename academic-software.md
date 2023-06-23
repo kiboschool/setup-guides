@@ -27,20 +27,6 @@ One primary means of protecting your online security is to use a Password Manage
 
 If you already use a Password Manager, you can skip these steps. We **strongly encourage** that you use a Password Manager for all your passwords, instead of trying to remember them.
 
-## Accounts
-
-At or before Orientation, you'll be issued a new Kibo email address, with access
-to the Google product suite (drive, docs, slides, sheets, forms).
-
-You'll also need to create these accounts before you begin orientation:
-
-- Replit
-- Woolf
-
-(We'll send you more instructions about setting up these and any other accounts).
-
-Of course, you should use your password manager to store the logins for these accounts.
-
 ## Consistent Usernames
 
 Over time, it's helpful to build a consistent digital identity, so that people
