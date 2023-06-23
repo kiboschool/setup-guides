@@ -2,15 +2,15 @@
 
 Watch a video of this walkthrough ([Windows](https://www.loom.com/share/3d455cc0b40a473cbc4dca356dfd9bf5))
 
-## Sign up for a Github Account
+## 1. Sign up for a Github Account
 
 Navigate to https://github.com/join and sign up for a Github account using your Kibo email address. Store your credentials in your _password manager_ (you should do this for all new logins).
 
 If you already have a GitHub account, you should instead add your Kibo email address to your Github account. [This guide explains how](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/adding-an-email-address-to-your-github-account)
 
-## Configure Git
+## 2. Configure Git
 
-Open your terminal (Cmder or Iterm2) and configure your name and email settings for Git.
+Open your terminal (Cmder) and configure your name and email settings for Git.
 
 ```sh
 git config --global user.email "you@example.com"
@@ -19,11 +19,11 @@ git config --global user.name "Your name"
 
 Git will use these settings to attribute you as the author of any code that you write.
 
-**Important**: Replace 'you@example.com' with the email address you used to sign
-up for Github, and 'Your name' with your name (not your Github username -- the
+**Important**: Replace `you@example.com` with the email address you used to sign
+up for Github, and `Your name` with your name (not your Github username -- the
 name you'd like people to see when they check who authored some code).
 
-## Connect Github your computer
+## 3. Connect Github your computer
 
 You need to connect Git on your computer to your Github account.
 
@@ -32,9 +32,9 @@ one of the keys with Github. When you connect to Github in the future, you won't
 need to type in your username or password, because it will check who you are
 using the key.
 
-### Create an SSH key
+### Step 1: Create an SSH key
 
-Open a terminal (Cmder or iTerm2) and copy and follow the instructions below to
+Open a terminal (Cmder) and copy and follow the instructions below to
 create an SSH key and connect it to Github.
 
 **Important**: Be sure to use the email you used to sign up for Github.
@@ -61,47 +61,45 @@ prompt.
 
 The program will tell you that it created a pair of keys, and give the paths to those files. Note the path to the public key, because you'll need it in the next step. It should be something like:
 
-Windows:
 ```
 Your public key has been saved in C:\Users\user\.ssh/id_ed25519.pub
 ```
 
-Mac:
+<!-- Mac:
 ```
 Your public key has been saved in /Users/user/.ssh/id_ed25519.pub
-```
+``` -->
 
-### Copy your key
+### Step 2: Copy your key
 
-Now, you need to copy the key so that you can add it to Github. The `clip` or `pbcopy` command will copy the contents of the file to the clipboard, so that you can paste it into Github in the next step. 
+Now, you need to copy the key so that you can add it to Github. The `clip` command will copy the contents of the file to the clipboard, so that you can paste it into Github in the next step. 
 
 (If you get a 'File not found error', use the file path from the previous step instead of the file paths shown in these examples)
 
-Windows:
 ```powershell
 clip < ~/.ssh/id_ed25519.pub
 ```
 
-Mac:
+<!-- Mac:
 ```shell
 pbcopy < ~/.ssh/id_ed25519.pub
-```
+``` -->
 
-### Add your key to Github
+### Step 3: Add your key to Github
 
 (borrowed from these [Github instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account))
 
-- Navigate to Github in your browser
-- In the upper-right corner of any page, click your profile photo, then click Settings.
-- In the "Access" section of the sidebar, click  SSH and GPG keys.
-- Click New SSH key or Add SSH key.
-- In the "Title" field, add a descriptive label for the new key. For example, if you're using a personal Dell Windows laptop, you might call this key "Personal Dell".
-- Paste your key into the "Key" field.
-- Click Add SSH key.
+1.  Navigate to [Github](https://github.com) in your browser
+2.  In the upper-right corner of any page, click your profile photo, then click Settings.
+3.  In the "Access" section of the sidebar, click  SSH and GPG keys.
+4.  Click New SSH key or Add SSH key.
+5.  In the "Title" field, add a descriptive label for the new key. For example, if you're using a personal Dell Windows laptop, you might call this key "Personal Dell".
+6.  Paste your key into the "Key" field.
+7.  Click Add SSH key.
 
 Github may ask you to enter your password again.
 
-### Test your connection
+### step 4: Test your connection
 
 To test that the keys and connection worked, enter this:
 

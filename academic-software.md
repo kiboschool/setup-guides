@@ -7,27 +7,75 @@ program. You may already have this software installed, so skip any applications
 that you already have.
 
 For each program, use the package manager (Scoop,
-Homebrew, or Apt) for your operating system to install the software.
+Homebrew, or Apt) for your operating system to install the software (examples 
+for Windows using `scoop` are provided.)
 
-- Zoom (`scoop install zoom` or `brew install --cask zoom`)
-- Discord (`scoop install discord` or `brew install --cask discord`)
-- Google Chrome Browser (`scoop install googlechrome` or `brew install --cask google-chrome`)
+## 1. Zoom 
+Zoom is like a virtual gathering space where you can connect with your live classes, meet up with classmates, and have face-to-face conversations from the comfort of your own screen.
 
-## Password Manager
+
+```powershell
+scoop install zoom
+```
+
+<!-- 
+For MacOS:
+```sh
+brew install --cask zoom
+``` -->
+
+## 2. Discord
+Discord is like the ultimate hangout spot where you can chat, voice call, video call, and collaborate with your crew all in one place.
+
+```powershell
+scoop install discord
+```
+
+<!-- For MacOS
+```sh
+brew install --cask discord
+``` -->
+
+## 3. Google Chrome Browser
+
+Google Chrome is like that trusty buddy who always has your back when it comes to surfing the web, loading pages in a flash and keeping things simple and smooth.
+
+```powershell
+scoop install googlechrome
+```
+
+<!-- For MacOS
+```sh
+brew install --cask google-chrome
+``` -->
+
+## 4. Password Manager
 
 As a technologist, you will become responsible for critical accounts and software. That means that your personal security habits, including passwords, are an important skill to develop and practice.
 
-One primary means of protecting your online security is to use a Password Manager. We recommend _Bitwarden_ as an excellent free tool, but there are other effective tools too, especially if you are willing to pay. (Dashlane, 1Password, and LastPass are all acceptable).
-
-* Create a Bitwarden account. Write down your master password on paper and keep it somewhere handy, but safe.
-* Install Bitwarden (`scoop install bitwarden` or `brew install --cask bitwarden`)
-* Install the Bitwarden browser extension
-* Add passwords to your most common accounts to Bitwarden.
-* As you create new accounts, including for Kibo, use Bitwarden to generate and store a strong password. Don't think of your own passwords.
+One primary means of protecting your online security is to use a different and strong
+password for every service.  But how do you remember all those complicated passowrds?  You use a Password Manager! We recommend _Bitwarden_ as an excellent free tool, but there are other effective tools too, especially if you are willing to pay. (Dashlane, 1Password, and LastPass are all acceptable).
 
 If you already use a Password Manager, you can skip these steps. We **strongly encourage** that you use a Password Manager for all your passwords, instead of trying to remember them.
 
-## Consistent Usernames
+ 1.  Create a Bitwarden account at [www.bitwarden.com](https://vault.bitwarden.com/#/register). Write down your master password on paper and keep it somewhere handy, but safe.  Remember to use a very strong master password.  If anyone were to get access to this account, they would have access to all your accounts!  More information on creating strong passwords is available from the [Cybersecurity & Infrastructure Security Agency](https://www.cisa.gov/news-events/news/choosing-and-protecting-passwords).
+ 2. Install Bitwarden 
+ ```powershell
+scoop install bitwarden
+```
+
+<!-- For MacOS
+```sh
+brew install --cask bitwarden
+``` -->
+
+3.  Install the Bitwarden browser extension by visiting [www.bitwarden.com/download/](https://bitwarden.com/download/) from your Chrome Browser
+
+Now that you have a safe place to store your passwords, do the following:"
+* Add passwords to your most common accounts to Bitwarden.
+* As you create new accounts, including for Kibo, use Bitwarden to generate and store a strong password. Don't think of your own passwords.
+
+## 5. Consistent Usernames
 
 Over time, it's helpful to build a consistent digital identity, so that people
 can recognize your profile on different platforms.
