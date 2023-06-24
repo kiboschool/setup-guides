@@ -77,3 +77,5 @@ Some online resources are _adamant_ about using virtualenv. It's a good tool, bu
 Replit has a Flask template that handles the installation for you. You can create a new Repl with the Flask template, and then start coding right away. Replit also shows a preview of the pages of your site, and can connect to Github to have a repository of your code.
 
 You can use Replit as an easy way to experiment with Flask, but we still require you to install Flask on your system locally to practice managing a local environment.
+
+[Return to the README](./README.md)

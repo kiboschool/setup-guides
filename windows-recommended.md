@@ -33,3 +33,5 @@ to skim it to see what else is possible.
 
 You can also search for customization guides on Google; lots of developers share
 their themes and configurations for others to mimic.
+
+[Return to the README](./README.md)

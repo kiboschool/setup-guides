@@ -123,3 +123,5 @@ brew install --cask visual-studio-code
 brew install python@3.10
 brew install node
 ```
+
+[Return to the README](./README.md)

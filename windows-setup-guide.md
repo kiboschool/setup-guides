@@ -128,3 +128,5 @@ scoop install vscode
 scoop install python
 scoop install nodejs
 ```
+
+[Return to the README](./README.md)

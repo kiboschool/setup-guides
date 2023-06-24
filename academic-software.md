@@ -71,7 +71,7 @@ brew install --cask bitwarden
 
 3.  Install the Bitwarden browser extension by visiting [www.bitwarden.com/download/](https://bitwarden.com/download/) from your Chrome Browser
 
-Now that you have a safe place to store your passwords, do the following:"
+Now that you have a safe place to store your passwords, do the following:
 * Add passwords to your most common accounts to Bitwarden.
 * As you create new accounts, including for Kibo, use Bitwarden to generate and store a strong password. Don't think of your own passwords.
 
@@ -114,3 +114,5 @@ She goes one step further and also has https://opebukola.com/. We'll talk about 
 
 For now, just be aware that using a consistent username across different
 accounts can be a positive signal in some tech spaces.
+
+[Return to the README](./README.md)
