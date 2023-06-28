@@ -81,7 +81,7 @@ scoop bucket add extras
 ```
 
 ```powershell
-scoop install vscode
+scoop install extras/vscode
 ```
 
 The first line (scoop bucket add extras) adds a “bucket” to scoop. It’s a new set of software programs and packages that scoop knows how to install. The second line actually installs vscode.
