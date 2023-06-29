@@ -105,10 +105,12 @@ NodeJS is a JavaScript _runtime_ -- it lets you run JavaScript on your computer,
 To install Node, run the following command in Powershell:
 
 ```sh
-scoop install nodejs
+scoop install nodejs pnpm
 ```
 
 There are lots of different versions of Node. This will install version `20`, which is the latest stable version of Node and what we’ll use in class.
+
+This command also installs `pnpm`, a package manager that saves on network bandwidth.
 
 ## Summary
 
@@ -126,5 +128,5 @@ scoop install cmder
 scoop bucket add extras
 scoop install vscode
 scoop install python
-scoop install nodejs
+scoop install nodejs pnpm
 ```
