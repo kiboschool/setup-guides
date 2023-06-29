@@ -1,12 +1,12 @@
 # MacOS Setup Guide
 
 If you have an Apple laptop running MacOS, you should follow these
-instructions to set your computer up to write, run, and debug code. 
+instructions to set your computer up to write, run, and debug code.
 
 You'll install:
 
 1. **Homebrew**, a tool for installing and managing software
-2. **Git**, a tool for managing changes to code 
+2. **Git**, a tool for managing changes to code
 3. **Iterm2**, a terminal emulator that lets you interact with files and programs via text
 4. **VSCode**, a popular programming text editor you'll use to write programs
 5. **Python**, the programming language we'll use for introductory programming classes at Kibo
@@ -70,7 +70,7 @@ To install Iterm2, run the following command in Terminal:
 brew install --cask iterm2
 ```
 
-While you wait for it to install, you can browse to the Iterm2 wiki to learn more about configuration options. 
+While you wait for it to install, you can browse to the Iterm2 wiki to learn more about configuration options.
 
 ## 4. VSCode
 
@@ -101,14 +101,16 @@ NodeJS is a JavaScript _runtime_ -- it lets you run JavaScript on your computer,
 To install Node, run the following command in Terminal:
 
 ```sh
-brew install node
+brew install node pnpm
 ```
 
 There are lots of different versions of Node. This will install version `20`, which is the latest stable version of Node and what we’ll use in class.
 
+This command also installs `pnpm`, a package manager that saves on network bandwidth.
+
 ## Summary
 
-Here’s the short version of the above steps. 
+Here’s the short version of the above steps.
 
 Don't do them again if you've already followed the steps!
 
@@ -121,7 +123,7 @@ brew install git
 brew install --cask iterm2
 brew install --cask visual-studio-code
 brew install python@3.10
-brew install node
+brew install node pnpm
 ```
 
 [Return to the README](./README.md)
