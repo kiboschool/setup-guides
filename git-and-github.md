@@ -14,10 +14,23 @@ Open your terminal (Cmder) and configure your name and email settings for Git.
 
 ```sh
 git config --global user.email "you@example.com"
+```
+
+and then
+
+```sh
 git config --global user.name "Your name"
 ```
 
 Git will use these settings to attribute you as the author of any code that you write.
+
+You can see your configuration by running:
+
+```sh
+git config --list --global
+```
+
+Which should show your username and email.
 
 **Important**: Replace `you@example.com` with the email address you used to sign
 up for Github, and `Your name` with your name (not your Github username -- the
@@ -59,31 +72,43 @@ prompt.
 > Enter same passphrase again: [Type passphrase again]
 ```
 
-The program will tell you that it created a pair of keys, and give the paths to those files. Note the path to the public key, because you'll need it in the next step. It should be something like:
+The program will tell you that it created **two keys**, and give the paths to those files. Note the path to the public key, because you'll need it in the next step. It should be something like:
 
 ```
 Your public key has been saved in C:\Users\user\.ssh/id_ed25519.pub
 ```
 
-<!-- Mac:
-```
-Your public key has been saved in /Users/user/.ssh/id_ed25519.pub
-``` -->
+![image](https://github.com/kiboschool/setup-guides/assets/3818920/46eb419c-3093-484c-a68b-ec980001e5a2)
+
 
 ### Step 2: Copy your key
 
 Now, you need to copy the key so that you can add it to Github. The `clip` command will copy the contents of the file to the clipboard, so that you can paste it into Github in the next step. 
 
-(If you get a 'File not found error', use the file path from the previous step instead of the file paths shown in these examples)
-
 ```powershell
 clip < ~/.ssh/id_ed25519.pub
 ```
 
-<!-- Mac:
-```shell
-pbcopy < ~/.ssh/id_ed25519.pub
-``` -->
+If you get a 'File not found error', use the file path from the previous step instead of the file paths shown in these examples.
+
+<details>
+  <summary> <strong>Alternatively</strong>, find the file in the explorer, and copy the key from VSCode.
+    
+  </summary>
+
+
+  1. Open the `.ssh` folder in your file explorer
+  2. Find the file `id_ed25519.pub`. **Note** the file may show up as a Microsoft Publisher file, and the `.pub` extension might be hidden until you open the file using VSCode.
+
+  When you open the file in VSCode, it should have something like this:
+
+  ```txt
+  ssh-ed25519 AAAAC3NzaC1lZDI1NTE5BBBBCC12001REwLmOd3Lg1XFEn8+dlyhlTibGe4 your.name@kibo.school
+  ```
+  
+  3. Copy the key from VSCode.
+
+</details>
 
 ### Step 3: Add your key to Github
 
